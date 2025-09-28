@@ -1,4 +1,8 @@
-## Hi there 👋
+## Hi there 👋 I Am Aayan Naushad Ali 
+
+This is my first Git Repository. 
+<br>
+Author - Aayan Naushad Ali
 
 <!--
 **AayanNaushadAli/AayanNaushadAli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
