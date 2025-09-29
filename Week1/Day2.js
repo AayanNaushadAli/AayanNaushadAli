@@ -22,6 +22,40 @@ if (age < 18) {
     console.log("Senior");
 }
 
+// questio 1 : check divisble of 5 
+
+    let num = prompt("Enter a number:");
+    if (num % 5 === 0) {
+        coonsole.log(num + " is divisible by 5");
+    }else {
+        console.log(num + " is not divisible by 5");
+    }
+
+// question 2 : check the grade of the students 
+
+    let marks = prompt("Enter your marks:");
+    if (marks >= 90) {
+        console.log("A+");
+    }else if (marks >= 80) {
+        console.log("A");
+    }
+    else if (marks >= 70) {
+        console.log("B+");
+    }
+    else if (marks >= 60) {
+        console.log("B");
+    }
+    else if (marks >= 50) {
+        console.log("C");
+    }
+    else if (marks >= 40) {
+        console.log("D");
+    }
+    else {
+        console.log("F");
+    }
+
+
 // switch case
 let day = 3;
 switch (day) {
@@ -49,4 +83,35 @@ switch (day) {
     default:
         console.log("Invalid day");
 }
+
+// questio 2 : check the grade of the students 
+
+
+// loops : for loop, while loop, do-while loop , for ... of loop, for ... in loop
+
+// for loop
+
+for (let i = 1; i <= 5; i++) {
+    console.log("Number:", i);
+}
+
+// while loop
+
+let x = 1;
+while (x <= 5) {
+    console.log("While Number:", x);
+    x++;
+}
+
+// do-while loop
+
+let y = 1;
+do {
+    console.log("Do-While Number:", y);
+    y++;
+}while (y <= 5);
+
+
+
+
 
