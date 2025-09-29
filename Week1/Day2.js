@@ -191,9 +191,57 @@ console.log("new email: ", user.profile.email);
 
 console.log("updated user: ", user);
 
+// Question 6: Nested Object Update
+// Ek object user me nested property settings.theme ko read aur update karo.
 
+let user_me = {
+    id: 1,
+    profile: {
+        username: "aayan",
+        email: "aayan@example.com",
+        settings: {
+            theme: "dark",
+            notifications: true,
+        },
+    },
+};
 
+console.log("Current theme:", user_me.profile.settings.theme);
 
+// udating theme 
+
+user_me.profile.settings.theme = "light";
+
+console.log("Updated theme:", user_me.profile.settings.theme);
+console.log("Updated user:", user_me);
+
+// Question 7: Array inside Object
+// Ek object person me skills array create karo, ek value print karo aur ek nayi skill push karo.
+
+let person_me = {
+    name: "Aayan Naushad Ali",
+    skills: ["JavaScript", "C", "Python"],
+};
+
+console.log("my skills:", person_me.skills);
+
+// pushing new skill
+person_me.skills.push("JAVA");
+
+console.log("updated skills:", person_me.skills);
+
+// Property Delete + 'in' Operator
+// Ek object car me ek property delete karo aur check karo agar wo property ab object me exist karti hai ya nahi.
+
+let car = {
+    name : "Toyota",
+    model : "Camry",
+    year : 2020,
+};
+
+// dleting model property
+delete car.model;
+console.log("car object after deleting model:", car);
 
 
 
