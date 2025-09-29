@@ -24,16 +24,16 @@ if (age < 18) {
 
 // questio 1 : check divisble of 5 
 
-    let num = prompt("Enter a number:");
+    let num = 55;
     if (num % 5 === 0) {
-        coonsole.log(num + " is divisible by 5");
+        console.log(num + " is divisible by 5");
     }else {
         console.log(num + " is not divisible by 5");
     }
 
 // question 2 : check the grade of the students 
 
-    let marks = prompt("Enter your marks:");
+    let marks = 93;
     if (marks >= 90) {
         console.log("A+");
     }else if (marks >= 80) {
@@ -111,6 +111,23 @@ do {
     y++;
 }while (y <= 5);
 
+// for ... of loop
+let arr = [10, 20, 30, 40, 50];
+for ( let i of arr) {
+    console.log("for of loop value:", i);
+}
+
+//for ... in loop
+
+let students = {
+    name: "Aayan Naushad Ali",
+    age: 19,
+    city: "Delhi",
+};
+
+for (let key in students) {
+    console.log ("students details", key + ":", students[key]);
+}
 
 
 
