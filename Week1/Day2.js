@@ -130,5 +130,68 @@ for (let key in students) {
 }
 
 
+// question 3 : object manipulation
+// Ek object banao book = { title: "Atomic Habits", author: "James Clear", pages: 320 } 
+// Author print karo 
+// pages ko 350 update karo
+// Naya property publishedYear: 2018 add karo
+
+let book = {
+    title: "Atomic Habits",
+    author: "James Clear",
+    pages: 320
+};
+
+console.log("Author:", book.author);
+
+book.pages = 350;
+console.log("Updated pages:", book.pages);
+
+book.publisedYear = 2018;
+console.log("Published Year:", book.publisedYear);
+console.log("Updated book object:", book);
+
+
+// question 4 : object with array property
+// Ek object banao person = { name: "Aayan Naushad Ali", skills: ["JavaScript", "C", "Python"] } 
+// 2nd skill print karo
+// Nayi skill "Java" add karo
+// Updated details of the person print karo
+
+let person = {
+    name: "Aayan Naushad Ali",
+    skills: ["JavaScript", "C", "Python"],
+}
+
+console.log("2nd skill:", person.skills[1]);
+person.skills.push("Java");
+console.log("Updated details of the person", person);
+
+// question 5 : nested object manipulation
+// Ek nested object banao user = { id: 1, profile: { username: "aayan", email: "aayan@example.com" } }
+// Username print karo
+// Email ko update karke "aayan@new.com" karo
+// Updated details of the user print karo
+
+let user = {
+  id: 1,
+  profile: {
+    username: "aayan",
+    email: "aayan@example.com"
+  }
+};
+
+console.log("user: ", user);
+
+// updating user email 
+
+user.profile.email = "aayan@new.com";
+
+console.log("new email: ", user.profile.email);
+
+console.log("updated user: ", user);
+
+
+
 
 
