@@ -22,7 +22,7 @@ if (age < 18) {
     console.log("Senior");
 }
 
-// questio 1 : check divisble of 5 
+// question 1 : check divisible by 5
 
     let num = 55;
     if (num % 5 === 0) {
@@ -84,9 +84,6 @@ switch (day) {
         console.log("Invalid day");
 }
 
-// questio 2 : check the grade of the students 
-
-
 // loops : for loop, while loop, do-while loop , for ... of loop, for ... in loop
 
 // for loop
@@ -113,7 +110,7 @@ do {
 
 // for ... of loop
 let arr = [10, 20, 30, 40, 50];
-for ( let i of arr) {
+for (let i of arr) {
     console.log("for of loop value:", i);
 }
 
@@ -126,7 +123,7 @@ let students = {
 };
 
 for (let key in students) {
-    console.log ("students details", key + ":", students[key]);
+    console.log("students details", key + ":", students[key]);
 }
 
 
@@ -147,8 +144,8 @@ console.log("Author:", book.author);
 book.pages = 350;
 console.log("Updated pages:", book.pages);
 
-book.publisedYear = 2018;
-console.log("Published Year:", book.publisedYear);
+book.publishedYear = 2018;
+console.log("Published Year:", book.publishedYear);
 console.log("Updated book object:", book);
 
 
@@ -181,9 +178,10 @@ let user = {
   }
 };
 
+console.log("Username:", user.profile.username);
 console.log("user: ", user);
 
-// updating user email 
+// updating user email
 
 user.profile.email = "aayan@new.com";
 
@@ -208,7 +206,7 @@ let user_me = {
 
 console.log("Current theme:", user_me.profile.settings.theme);
 
-// udating theme 
+// updating theme
 
 user_me.profile.settings.theme = "light";
 
@@ -239,9 +237,10 @@ let car = {
     year : 2020,
 };
 
-// dleting model property
+// deleting model property
 delete car.model;
 console.log("car object after deleting model:", car);
+console.log("Does 'model' exist in car?", "model" in car);
 
 
 
