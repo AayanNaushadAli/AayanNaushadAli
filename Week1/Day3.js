@@ -172,3 +172,32 @@ let person = {
 }
 
 console.log(getFullName(person));
+
+
+// array push pop shift unshift slice concate indexof 
+
+// push : add element to begeining
+
+
+let fruits = ["mango", "banana"];
+console.log("original Fruits Array()");
+console.log(fruits, "\n");
+
+console.log("push()");
+fruits.push("apple");
+console.log(fruits, "\n");
+
+//pop : remove the last element 
+console.log("pop()");
+let removed = fruits.pop()
+console.log(fruits);
+console.log(removed, "\n");
+
+fruits.push("apple"); // inserting again apple for shift funtion
+console.log(fruits);
+
+//shift : remove 1st element of the element 
+console.log("shift()");
+removed = fruits.shift();
+console.log(fruits);
+console.log(removed, "\n");
