@@ -4,6 +4,9 @@ This is my first Git Repository.
 <br>
 Author - Aayan Naushad Ali
 
+
+<br> <br>
+DAY 2 : NESTED LOOPS AND NESTED OBJECTS ✅
 <!--
 **AayanNaushadAli/AayanNaushadAli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
