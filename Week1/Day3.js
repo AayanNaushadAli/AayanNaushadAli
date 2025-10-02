@@ -178,7 +178,7 @@ console.log(getFullName(person));
 
 // array push pop shift unshift slice concate indexof 
 
-// push : add element to begeining
+// push : add element to end
 
 
 let fruits = ["mango", "banana"];
@@ -222,6 +222,71 @@ console.log(arr5);
 
 // splice : remove/add/replace 
 
-let nums = []
+arr5.splice(2, 2, 99, 100); // array.splice(start, deleteCount, item1, item2, ...)
+console.log(arr5);
+
+
+// indexOf :
+let fruits1 = ["apple", "banana", "mango"];
+console.log(fruits1.indexOf("banana")); 
+console.log(fruits1.indexOf("grapes"));
+
+// includes :
+
+let fruits2 = ["apple", "banana", "mango"];
+console.log(fruits2.includes("banana")); // true
+console.log(fruits2.includes("grapes")); // false
+
+
+//  question 1 : for day 3 dlete 2 elememnts from index 2 
+
+let arr6= [10 , 20, 30, 40, 50];
+
+arr6.splice(2, 2);
+console.log(arr6);
+
+// question 2 : day 3 add 3 and 4 in the array [1, 2, 5, 6]
+
+let arr7 = [1, 2, 5, 6];
+
+arr7.splice(2, 0, 3, 4);
+console.log(arr7);
+
+// Question 3 : 
+
+let arr8 = ["red", "green", "blue"];
+
+arr8.splice(1, 1, "yellow");
+console.log(arr8);
+
+// question 4 :
+
+let arr9 = [100, 200, 300];
+
+arr9.push(400);
+console.log(arr9); // [100, 200, 300, 400]
+
+arr9.unshift(0);
+console.log(arr9); // [0, 100, 200, 300, 400]
+
+arr9.pop();
+console.log(arr9); // [0, 100, 200, 300]
+
+arr9.shift();
+console.log(arr9); // [100, 200, 300]
+
+// question 5 :
+
+let arr10 = [1, 2, 3];
+let arr11 = [4, 5, 6];
+
+let arr12 = arr10.concat(arr11);
+console.log(arr12);
+
+let part1 = arr12.slice(2, 5);
+console.log(part1);
+console.log(arr12.includes(5));
+
+
 
 
