@@ -1,3 +1,5 @@
+const { partialParse } = require("openai/_vendor/partial-json-parser/parser.mjs");
+
 // simple function
 function greet(name) {
   console.log("Hello, " + name + "!");
@@ -201,3 +203,25 @@ console.log("shift()");
 removed = fruits.shift();
 console.log(fruits);
 console.log(removed, "\n");
+
+
+//  concatation : add 2 number 
+ let arr1 = [1, 2];
+ let arr2 = [3, 4];
+
+ let arr3 = arr1.concat(arr2);
+console.log(arr3, "\n");
+
+// slice : only show the portion after removing, it doest originally change tha array
+
+let arr5 = [10, 20, 30, 40, 50];
+let part = arr5.slice(1, 4);
+
+console.log(part);
+console.log(arr5);
+
+// splice : remove/add/replace 
+
+let nums = []
+
+
