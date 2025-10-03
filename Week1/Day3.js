@@ -96,6 +96,16 @@ function isLeapYear(year){
 let year = 2020;
 console.log(isLeapYear(year));
 
+
+// arrow function 
+
+const square = (n) => n * n;
+
+console.log(square(7)); // Output: 49
+
+
+
+
 // funtion of grading using ternary operator 
 
 function grade(marks){
@@ -286,7 +296,4 @@ console.log(arr12);
 let part1 = arr12.slice(2, 5);
 console.log(part1);
 console.log(arr12.includes(5));
-
-
-
 
