@@ -80,17 +80,17 @@ console.log("factorial of 5 is: ", factorial(5));
 
 // cube of the number 
 
-function cube(num){
+function cube(num) {
   return num * num * num;
 }
 
 console.log("cube of 3 is: ", cube(3));
 
 // function for leap year
-function isLeapYear(year){
+function isLeapYear(year) {
 
-  return year % 4 === 0 && year % 100 !== 0 ? (year + " is leap year.") : 
-        (year + " this year is not leap year")
+  return year % 4 === 0 && year % 100 !== 0 ? (year + " is leap year.") :
+    (year + " this year is not leap year")
 }
 
 let year = 2020;
@@ -99,21 +99,27 @@ console.log(isLeapYear(year));
 
 // arrow function 
 
-const square = (n) => n * n;
+// square using arrow function 
+const square1 = (n) => n * n;
+console.log(square1(7));
 
-console.log(square(7)); // Output: 49
+// sum using arrow funtion 
+const sum1 = (a, b) => a + b;
+console.log(sum1(5, 6));
+
+
 
 
 
 
 // funtion of grading using ternary operator 
 
-function grade(marks){
-  return marks >= 90 ? "A+" : 
-         marks >= 80 ? "A" :
-         marks >= 70 ? "B" :
-         marks >= 60 ? "C" :
-         marks >= 50 ? "D" : "F";
+function grade(marks) {
+  return marks >= 90 ? "A+" :
+    marks >= 80 ? "A" :
+      marks >= 70 ? "B" :
+        marks >= 60 ? "C" :
+          marks >= 50 ? "D" : "F";
 }
 
 console.log(grade(82));
@@ -121,9 +127,9 @@ console.log(grade(91));
 console.log(grade(43));
 
 // function for sum of number inside the array 
-function sumArray(arr){
+function sumArray(arr) {
   let sum = 0;
-  for (let i = 0; i < arr.length; i++){
+  for (let i = 0; i < arr.length; i++) {
     sum = sum + arr[i];
   }
   return sum;
@@ -136,9 +142,9 @@ console.log(sumArray([]));
 
 // using for .. off loop to create the sum of the number inside the array 
 
-function sumArray1(arr){
+function sumArray1(arr) {
   let sum = 0;
-  for (let num of arr){
+  for (let num of arr) {
     sum += num;
   }
   return sum;
@@ -152,9 +158,9 @@ console.log(sumArray1([]));
 
 // function for pront even number from 1 to n 
 
-function printEvenNum(n){
-  for(let i = 0; i <= n; i++){
-    if(i % 2 === 0){
+function printEvenNum(n) {
+  for (let i = 0; i <= n; i++) {
+    if (i % 2 === 0) {
       console.log(i);
     }
   }
@@ -164,8 +170,8 @@ console.log(printEvenNum(10));
 
 // another method for sum function 
 
-function printEven(n){
-  for(let i = 2; i <= n; i+=2){
+function printEven(n) {
+  for (let i = 2; i <= n; i += 2) {
     console.log(i);
   }
 }
@@ -174,13 +180,13 @@ console.log(printEven(10));
 
 // concatination function 
 
-function getFullName(User){
+function getFullName(User) {
   return User.firstName + " " + User.lastName;
 }
 
-let person = { 
-  firstName : "Aayan",
-  lastName : "Naushad"
+let person = {
+  firstName: "Aayan",
+  lastName: "Naushad"
 }
 
 console.log(getFullName(person));
@@ -216,10 +222,10 @@ console.log(removed, "\n");
 
 
 //  concatation : add 2 number 
- let arr1 = [1, 2];
- let arr2 = [3, 4];
+let arr1 = [1, 2];
+let arr2 = [3, 4];
 
- let arr3 = arr1.concat(arr2);
+let arr3 = arr1.concat(arr2);
 console.log(arr3, "\n");
 
 // slice : only show the portion after removing, it doest originally change tha array
@@ -238,7 +244,7 @@ console.log(arr5);
 
 // indexOf :
 let fruits1 = ["apple", "banana", "mango"];
-console.log(fruits1.indexOf("banana")); 
+console.log(fruits1.indexOf("banana"));
 console.log(fruits1.indexOf("grapes"));
 
 // includes :
@@ -250,7 +256,7 @@ console.log(fruits2.includes("grapes")); // false
 
 //  question 1 : for day 3 dlete 2 elememnts from index 2 
 
-let arr6= [10 , 20, 30, 40, 50];
+let arr6 = [10, 20, 30, 40, 50];
 
 arr6.splice(2, 2);
 console.log(arr6);
@@ -296,4 +302,48 @@ console.log(arr12);
 let part1 = arr12.slice(2, 5);
 console.log(part1);
 console.log(arr12.includes(5));
+
+// function that return vowel form the strings 
+function vowel(word) {
+  let count1 = 0;
+  for (let i of word) {
+    if (i === "a" || i === "i" || i === "e" || i === "o" || i === "u" || i === "A" || i === "E" || i === "I" || i === "O" || i === "U") {
+      count1++;
+      console.log(i);
+    }
+
+  }
+  console.log("total number is vowel: ", count1);
+}
+
+console.log(vowel("Aayan"));
+
+// forEach funtion 
+
+let arr13 = [10, 20, 30, 40, 50];
+
+arr13.forEach(function (num) {
+  console.log(num);
+}
+);
+
+// square of the number using forEach
+
+console.log("square of the number using forEach");
+let arr14 = [2, 3, 5];
+arr14.forEach(function (num) {
+  console.log(num * num);
+}
+);
+
+// using arrow function
+console.log("using arrow function");
+
+arr14 = [2, 3, 5];
+arr14.forEach((num) => {
+  console.log(num * num);
+}
+);
+
+// map function
 
