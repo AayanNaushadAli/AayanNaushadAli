@@ -346,4 +346,8 @@ arr14.forEach((num) => {
 );
 
 // map function
+let arr15 = [1, 2, 3, 4, 5];
+let squaredArr = arr15.map((num) => num * num);
+console.log("squared array using map function: ", squaredArr);
+
 

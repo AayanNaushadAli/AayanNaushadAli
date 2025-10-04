@@ -3,13 +3,14 @@
 # JavaScript Learning Roadmap (Week 1–3)
 
 ## Week 1 (Basics)
+## Week 1 (Basics)
 - **Day 1:** JS Syntax, let/const, Types, Operators  ✅
 - **Day 2:** Control Flow (if/else, switch, ternary)  ✅
 - **Day 3:** Loops (for, while, for...of) + Array Intro  ✅
-- **Day 4:** Functions (declarations, expressions, arrow) 🟡 (More practice needed)
-- **Day 5:** 10 Small Problems (FizzBuzz, factorial, reverse string, palindrome) 🟡 (Kuch problems pending)
-- **Day 6:** Array & Object Methods (Practice) 🟡 (map/filter/reduce pending)
-- **Day 7:** ES6+ (template strings, destructuring, spread/rest, default params) ❌ (Start karna hai)
+- **Day 4:** Functions (declarations, expressions, arrow) 🟡 (Mostly covered across Day2/Day3 examples — more focused practice recommended)
+- **Day 5:** 10 Small Problems (FizzBuzz, factorial, reverse string, palindrome) 🟡 (Several problems done — FizzBuzz / reverse string / palindrome remaining)
+- **Day 6:** Array & Object Methods (Practice) 🟡 (push/pop/shift/unshift/concat/slice/splice/map/forEach implemented; filter/reduce/find remaining)
+- **Day 7:** ES6+ (template strings, destructuring, spread/rest, default params) 🟡 (default params & arrow functions present; add template literals, destructuring, spread/rest)
 
 ## Week 2 (Intermediate)
 - **Day 1:** DOM basics (querySelector, addEventListener, DOM manipulation) ❌
@@ -40,6 +41,20 @@
 - Week 1 ka functions & small JS problems complete karo.
 - Uske baad Week 2 wala arrays, DOM aur ES6 start karo.
 - Week 3 ke liye: jab Week 2 complete ho, toh local storage, fetch API, aur weather app par shift karo.
+
+---
+
+Missing / Next small topics to finish core JavaScript (quick checklist):
+
+- [ ] FizzBuzz, reverse string, palindrome (complete Day 5 problems)
+- [ ] Array helpers: filter, reduce, find (practice examples)
+- [ ] ES6 additions: template literals, destructuring (objects/arrays), spread/rest operators
+- [ ] String methods and regular expressions (basic search/replace/match)
+- [ ] Error handling (try/catch) and input validation patterns
+- [ ] Basic OOP / classes (ES6 class syntax)
+- [ ] Modules (import/export) — basic usage
+
+Once the above checklist is done, Week 2 (DOM + small apps) will be the natural next step.
 
 ---
 
