@@ -5,7 +5,9 @@
 // 1) filterOdd(arr): return only odd numbers
 function filterOdd(arr) {
   // implement me
+  return arr.filter(x => x % 2 !== 0);
 }
+
 
 // 2) sumSquares(arr): use reduce to sum squares
 function sumSquares(arr) {
@@ -31,3 +33,9 @@ function removeDuplicates(arr) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { filterOdd, sumSquares, findFirstPrime, groupBy, removeDuplicates };
 }
+
+// Test filterOdd
+console.log('filterOdd([1,2,3,4,5]):', filterOdd([1,2,3,4,5]));
+
+
+
