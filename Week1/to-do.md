@@ -113,3 +113,7 @@ Bilkul! Tum roadmap ko kaafi readable bana sakte ho by nesting like this:
     Q4: Push, Pop, Shift, Unshift combo ✅
 
     Q5: Concat, Slice, Includes ✅
+
+## Break 06 to 17 CT 
+
+    day1: math preparation 

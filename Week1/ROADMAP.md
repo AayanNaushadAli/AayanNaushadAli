@@ -36,3 +36,5 @@ Notes & tips:
 - Use console.log frequently to inspect values.
 - Make small commits for each completed task (e.g., "Add fizzbuzz and reverse string").
 - When comfortable, pair the DOM tasks with small CSS so you can deploy a simple static site.
+
+
