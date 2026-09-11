@@ -19,11 +19,11 @@
 ### `~/about`
 
 ```yaml
-name: Your Name
+name: Aayan Naushad Ali
 role: Game Developer / 3D Artist
 engines: [Unreal, Unity, Godot]
 focus: [gameplay systems, shaders, tools]
-currently: shipping [Project Name]
+currently: shipping DevConnect
 fun_fact: debugging is 90% of the job
 ```
 
