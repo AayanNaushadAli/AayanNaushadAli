@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:00F5FF&height=180&section=header&text=YOUR%20NAME&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Dev%20%7C%203D%20Artist%20%7C%20Systems%20Programmer&descAlignY=58&descColor=00F5FF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:00F5FF&height=180&section=header&text=AayanNaushadAli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Game%20Dev%20%7C%203D%20Artist%20%7C%20Systems%20Programmer&descAlignY=58&descColor=00F5FF" width="100%"/>
 
 <br/>
 
-<a href="https://github.com/yourusername">
+<a href="https://github.com/AayanNaushadAli">
   <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=500&lines=Building+worlds+in+C%2B%2B+%26+Unreal;Shaders%2C+physics%2C+and+bad+puns;Currently+shipping+something+cool" alt="Typing SVG" />
 </a>
 
