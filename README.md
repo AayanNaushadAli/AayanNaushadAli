@@ -44,8 +44,8 @@ fun_fact: debugging is 90% of the job
 
 ### `~/stats`
 
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=00F5FF&icon_color=00F5FF&text_color=cfcfcf&ring_color=00F5FF" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark&hide_border=true&background=0d0d0d&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=AayanNaushadAli&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=00F5FF&icon_color=00F5FF&text_color=cfcfcf&ring_color=00F5FF" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AayanNaushadAli&theme=dark&hide_border=true&background=0d0d0d&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF" height="165"/>
 
 </div>
 
@@ -61,14 +61,14 @@ fun_fact: debugging is 90% of the job
 <tr>
 <td width="50%">
 
-**[Project One](https://github.com/yourusername/project-one)**
+**[Project One](https://github.com/AayanNaushadAli/project-one)**
 Real-time voxel terrain renderer with custom LOD system.
 `C++` `OpenGL` `Compute Shaders`
 
 </td>
 <td width="50%">
 
-**[Project Two](https://github.com/yourusername/project-two)**
+**[Project Two](https://github.com/AayanNaushadAli/project-two)**
 Procedural dungeon generator with a Godot plugin front-end.
 `GDScript` `Godot` `Procgen`
 
@@ -88,7 +88,7 @@ Procedural dungeon generator with a Godot plugin front-end.
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=yourusername&label=profile+views&color=00F5FF&style=flat" />
+<img src="https://komarev.com/ghpvc/?username=AayanNaushadAli&label=profile+views&color=00F5FF&style=flat" />
 
 <br/>
 
